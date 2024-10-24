@@ -1,9 +1,5 @@
 Для запуска данного кода достаточно установить необходимые библиотеки на ваш компьюетр и запустить его, в функции main, необходимо указывать ваш путь до изображения. 
-import numpy as np
-import unittest
-import matplotlib.pyplot as plt
-from skimage import io, color
-import cv2
+Необходимые библиотеки numpy, unittest, from skimage import io, color; cv2
 from PIL import Image
 
 В моей работе сначала задается функция для преобразования изображения rgb в бинарное (rgb_to_binary), для начала код принимает на вход трехмерный массив данных, в котором содержатся данные о значениях red, green и blue для каждого пикселя.
